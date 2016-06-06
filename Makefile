@@ -256,6 +256,8 @@ sym: applet/$(TARGET).sym
 upload: applet/$(TARGET).hex
 	$(AVRDUDE) $(AVRDUDE_FLAGS) $(AVRDUDE_WRITE_FLASH)
 
+console: upload
+	cu -s 9600 -l $(PORT)
 
 # Display size of file.
 HEXSIZE = $(SIZE) --target=$(FORMAT) applet/$(TARGET).hex
