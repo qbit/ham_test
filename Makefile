@@ -35,6 +35,8 @@
 # Below are some known working hardware configurations. If you find other
 # working configurations, please feed them back to the OpenBSD port maintainer.
 
+# Change this to the location of your HamShield libraries.
+# Also add the included alibs.mk file to is directory.
 USER_LIBRARIES=/home/qbit/dev/arduino_libs/
 
 PORT ?= /dev/cuaU0
