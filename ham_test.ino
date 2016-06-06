@@ -60,7 +60,7 @@ void loop() {
     radio.setModeTransmit();
     
     // Send a message out in morse code
-    radio.morseOut("KC7IBT ARDUINO HAMSHIELD");
+    radio.morseOut("KD0WKW ARDUINO HAMSHIELD");
     
     // We're done sending the message, set the radio back into recieve mode.
     radio.setModeReceive();
