@@ -81,7 +81,7 @@ VARIANT ?= standard
 #
 # For a full list see /usr/local/share/arduino/mk/alibs.mk
 
-LIBRARIES?=LiquidCrystal
+LIBRARIES?=DDS HamShield_comms KISS AFSK HamShield
 
 # You can add extra flags and sources here if you know what you are doing
 #
