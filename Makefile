@@ -87,7 +87,7 @@ LIBRARIES?=LiquidCrystal
 #
 #USER_CFLAGS=
 #USER_CXXFLAGS=
-USER_LDFLAGS=-Larduino-support/libraries/HamShield
+#USER_LDFLAGS=
 #USER_ASFLAGS=
 
 #USER_CXX_SRC=myfile.cpp
