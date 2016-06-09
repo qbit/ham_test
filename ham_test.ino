@@ -42,7 +42,8 @@ void setup() {
 	// Tell the HamShield to start up
 	radio.initialize();
 	radio.setRfPower(0);
-	// Configure the HamShield to transmit and recieve on 446.000MHz
+
+	// Configure the HamShield to transmit and recieve on 145.570MHz
 	radio.frequency(145570);
 
 	Serial.println("Radio Configured.");
